@@ -1,0 +1,75 @@
+@import "mixins";
+@import "variables";
+@import"functions";
+
+@font-face {
+    font-family: font;
+    src: url(../Fonts/Playfair_Display_SC/PlayfairDisplaySC-Black.ttf);
+}
+@font-face {
+    font-family: bb;
+    src: url(../Fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family:latoregular;
+    src: url(../Fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family:latobold ;
+    src: url(../Fonts/Lato/Lato-Bold.ttf);
+}
+
+
+#navbarResponsive{
+    background-color: $wh;
+  
+}
+#nom{
+font-family: font;
+}
+#cc{
+    color: #bc694e;
+}
+#pp{
+@extend #cc
+}
+.foulen{
+    @include foulenbenfoulen
+}
+.a{
+font-family: bb;
+color:$nr
+}
+.b{
+    color:$gh
+}
+.ex{
+    font-weight: latoregular;
+   color:#bc694e
+}
+#d{
+   @extend .ex
+}
+.aa{
+    font-famiy:latobold;
+    color:$nr
+}
+.bb{
+    font-family: latoregular;
+    color:$gh
+}
+.cc{
+   @extend .bb
+}
+.dd{
+    @extend .a
+}
+.ee{
+    @extend .cc
+}
+.container-fluid{
+    background-color: $wh;
+}
+#facebook{
+    @include flex;
+}

@@ -1,0 +1,66 @@
+@font-face {
+  font-family: font;
+  src: url(../Fonts/Playfair_Display_SC/PlayfairDisplaySC-Black.ttf);
+}
+@font-face {
+  font-family: bb;
+  src: url(../Fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: latoregular;
+  src: url(../Fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: latobold;
+  src: url(../Fonts/Lato/Lato-Bold.ttf);
+}
+#navbarResponsive {
+  background-color: #f4f4f4;
+}
+
+#nom {
+  font-family: font;
+}
+
+#cc, #pp {
+  color: #bc694e;
+}
+
+.foulen {
+  font-size: 50px;
+}
+
+.a, .dd {
+  font-family: bb;
+  color: #4f4f4f;
+}
+
+.b {
+  color: #d6d6d6;
+}
+
+.ex, #d {
+  font-weight: latoregular;
+  color: #bc694e;
+}
+
+.aa {
+  font-famiy: latobold;
+  color: #4f4f4f;
+}
+
+.bb, .cc, .ee {
+  font-family: latoregular;
+  color: #d6d6d6;
+}
+
+.container-fluid {
+  background-color: #f4f4f4;
+}
+
+#facebook {
+  display: flex;
+  align-items: flex-end;
+}
+
+/*# sourceMappingURL=essai.css.map */

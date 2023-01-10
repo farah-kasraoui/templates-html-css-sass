@@ -1,0 +1,59 @@
+#navbarResponsive {
+  background-color: #2d2b2b;
+  width: 40px;
+  height: 108px;
+}
+
+#a, #e, #d, #c, #b {
+  color: #ffffff;
+}
+
+#cont {
+  background-color: #3a0a1d;
+  min-height: 370px;
+}
+
+#img, #f, #n, #m, #l, #k {
+  height: 10px;
+  weight: 10px;
+}
+
+.tet {
+  color: white;
+}
+
+.footer {
+  padding: 25px;
+  min-height: 150px;
+  background-color: #e4bc01;
+}
+.footer div {
+  color: violet;
+  font-family: "lacuna_regularregular";
+  margin: auto 10px auto 10px;
+  display: flex;
+  justify-content: center;
+}
+.footer div .ic {
+  background-color: white;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.footer div .ic .fab {
+  margin: 10px 7px 7px 7px;
+  font-size: 25px;
+  color: #e4bc01;
+}
+.footer div .fab {
+  margin: 15px auto auto auto;
+  padding-bottom: 15px;
+  font-size: 45px;
+  color: white;
+}
+
+i {
+  background-color: white;
+}
+
+/*# sourceMappingURL=essai.css.map */

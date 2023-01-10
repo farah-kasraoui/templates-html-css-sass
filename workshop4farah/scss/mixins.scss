@@ -1,0 +1,9 @@
+
+@mixin responsive-cols {
+    display: flex;
+    justify-content: center;
+}
+@mixin icon($size: "xx-large", $color) {
+    font-size: $size;
+    color: $color;
+}

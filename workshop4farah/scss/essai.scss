@@ -1,0 +1,93 @@
+@import"mixins";
+@import"variables";
+@import "functions";
+
+
+#navbarResponsive{
+   background-color: $bl;
+   width: 40px;
+   height: 108px;
+}
+#a{
+    color:$wh
+}
+#b{
+    @extend #a
+}
+#c{
+    @extend #a
+}
+#d{
+    @extend #a
+}
+#e{
+    @extend #a
+}
+
+
+#cont{
+    background-color: $re;
+    min-height: 370px;
+}
+#img{
+    height: 10px;
+    weight:10px;
+}
+#k{
+@extend  #img
+}
+#l{
+@extend #img
+}
+#m{
+@extend #img
+}
+#n{
+@extend #img
+}
+#f{
+    @extend #img
+
+}
+.tet{
+    color:white;
+}
+ .row {
+
+ }
+
+ .footer {
+    padding: 25px;
+    min-height: 150px;
+    background-color:$yellow;
+    div {
+        color: violet ;
+        font-family: "lacuna_regularregular";
+        margin: auto 10px auto 10px;
+        @include responsive-cols;
+
+        
+
+        .ic{
+        background-color: white;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+            .fab {
+                margin: 10px 7px 7px 7px;
+               @include icon(25px, $yellow)
+            }
+
+        }
+        .fab {
+            margin: 15px auto auto auto;
+            padding-bottom: 15px;
+
+            @include icon(45px, white)
+        }
+
+    }
+ }
+ i{
+    background-color: white;
+ }
